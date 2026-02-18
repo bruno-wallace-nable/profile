@@ -1,0 +1,90 @@
+body {
+  font-family: "Bitcount Grid Double", sans-serif;
+  color: #000000;
+  background-color: #F7F9FC;
+}
+
+h1 {
+  font-size: 32px;
+  font-weight: 900;
+}
+
+h2 {
+  color: #d20d0d;
+  font-size: 28px;
+  margin-bottom: 40px;
+}
+
+#btn-blue {
+  background-color: #3038a2;
+  padding: 15px 20px;
+  color: white;
+  text-decoration: none;
+  font-weight: 800;
+  border-radius: 4px;
+}
+
+#btn-blue:hover {
+  background-color: black;
+}
+
+#btn-blue2 {
+  background-color: #3038a2;
+  padding: 15px 20px;
+  color: white;
+  text-decoration: none;
+  font-weight: 800;
+  border-radius: 4px;
+}
+
+#btn-blue2:hover {
+  background-color: black;
+}
+
+.card-white {
+  background: #dbdbdb;
+  padding: 30px;
+  border-radius: 4px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  width: 700px;
+  margin: 20px auto;
+  text-align: center;
+}
+
+.github-button {
+  list-style: none;
+}
+
+#photo {
+  border-radius: 50px;
+}
+
+#introduction {
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.container {
+  width: 900px;
+  margin: 0 auto;
+  background-color: white;
+  padding: 20px;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
