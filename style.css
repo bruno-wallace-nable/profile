@@ -1,17 +1,17 @@
 body {
-  font-family: "Bitcount Grid Double", sans-serif;
+  font-family: 'Space Grotesk', sans-serif;
   color: #000000;
-  background-color: #F7F9FC;
+  background-color: #becce1;
 }
 
 h1 {
-  font-size: 32px;
+  font-size: 40px;
   font-weight: 900;
 }
 
 h2 {
   color: #d20d0d;
-  font-size: 28px;
+  font-size: 32px;
   margin-bottom: 40px;
 }
 
@@ -21,7 +21,7 @@ h2 {
   color: white;
   text-decoration: none;
   font-weight: 800;
-  border-radius: 4px;
+  border-radius: 8px;
 }
 
 #btn-blue:hover {
@@ -34,21 +34,48 @@ h2 {
   color: white;
   text-decoration: none;
   font-weight: 800;
-  border-radius: 4px;
+  border-radius: 8px;
 }
 
 #btn-blue2:hover {
   background-color: black;
+  transform: translateY(-10px)
+}
+
+#btn-blue3 {
+  background-color: #3038a2;
+  padding: 15px 20px;
+  color: white;
+  text-decoration: none;
+  font-weight: 800;
+  border-radius: 8px;
+}
+
+#btn-blue3:hover {
+  background-color: black;
+  transform: translateY(-10px)
 }
 
 .card-white {
-  background: #dbdbdb;
-  padding: 30px;
-  border-radius: 4px;
+  background: #ffffff;
+  padding: 40px;
+  padding-top: 2px;
+  border-radius: 20px;
   box-shadow: 0 10px 30px rgba(0,0,0,.1);
   width: 700px;
   margin: 20px auto;
   text-align: center;
+}
+
+.card-small {
+  width: 300px;
+  margin: 20px auto;
+  border-radius: 70px;
+  padding: 10px 40px 40px 40px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 40px;
 }
 
 .github-button {
@@ -56,12 +83,16 @@ h2 {
 }
 
 #photo {
-  border-radius: 50px;
+  border-radius: 150px;
+  border: 3px solid black;
+  box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.5);
 }
 
 #introduction {
   margin-bottom: 40px;
   text-align: center;
+  font-size: 18px;
+  color: solid black;
 }
 
 .container {
@@ -69,6 +100,13 @@ h2 {
   margin: 0 auto;
   background-color: white;
   padding: 20px;
+}
+
+.container-btns {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
 }
 
 @media (max-width: 960px) {
