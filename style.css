@@ -70,12 +70,12 @@ h2 {
 .card-small {
   width: 300px;
   margin: 20px auto;
-  border-radius: 70px;
+  border-radius: 85px;
   padding: 10px 40px 40px 40px;
   box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
   text-align: center;
   margin-bottom: 20px;
-  margin-top: 40px;
+  margin-top: 28px;
 }
 
 .github-button {
@@ -83,7 +83,8 @@ h2 {
 }
 
 #photo {
-  border-radius: 150px;
+  width: 350px;
+  border-radius: 20%;
   border: 3px solid black;
   box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.5);
 }
